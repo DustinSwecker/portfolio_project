@@ -14,7 +14,7 @@ N/A
 
 This site provides a navigation link for ease of navigation through the site and includes direct links to the work I've done. Additionally, it has links which direct you to my linked in and a mailto: to email me directly from the page.
 
-![Horiseon's Digital Marketing Team](assets/images/HoriseonDigitalMarketing.png)
+![Dustin Swecker Portfolio](assets/images/portfoliowebpage.png)
 
 
 ## License
