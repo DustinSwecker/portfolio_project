@@ -79,38 +79,52 @@ main {
 
 h2 {
     font-size: 90%;
+    text-align: center;
     margin-right: 20px;  
     color: var(--color2);
-    width: 110px;
+    width: 150px;
 
 }
 
 .article-content {
+    
     border-left: 2px solid var(--color3);
     color: var(--color3)
 }
 
 p {
-    font-size: 50%;
-    margin-left: 10px;
+    font-size: 60%;
+    margin: 15px;
 }
 
 
 #work-box {
-    margin-left: 10px;
+    margin: 10px;
     display: flex;
     flex-flow: row wrap;
 }
 
 .my-work-img {
+    width: 500px;
     height: auto;
-    width: 600px;
     background: none;    
 }
 
 .my-work-img:hover {
     opacity: .6;
+    width: 600px;
+    height: auto;
 }
+
+#contact-links {
+    font-size: 75%;
+}
+
+footer {
+    font-size: 200%;
+}
+
+
 
 
 
@@ -121,6 +135,7 @@ p {
     }
     h2 {
         margin-right: 10px;
+        font-size: 75%;
     }
 
     #self-photo-container {
@@ -141,5 +156,12 @@ p {
     #nav-ul li {
         font-size: 75%;
         padding-bottom: 20px;
+    }
+    .article-content {
+        font-size: 70%;
+    }
+
+    #contact-links {
+        font-size: 60%;
     }
 }
