@@ -15,6 +15,7 @@
 header {
     font-size: 150%;
     background-image: url("https://images.pexels.com/photos/1591060/pexels-photo-1591060.jpeg?auto=compress&cs=tinysrgb&w=600");
+    background-size: cover;
     border-bottom: 2px solid black;
     
     
@@ -87,7 +88,8 @@ h2 {
     font-size: 90%;
     text-align: center;
     margin-right: 20px;  
-    color: whitesmoke;
+    color: black;
+    text-shadow: 
     width: 150px;
 
 }
@@ -132,6 +134,7 @@ p {
 #portfolio-img {
     height: auto;
     width: 100%;
+    filter: drop-shadow(0.25rem 0.25rem 0.5rem #000000)
 }
 
 #work-box {
@@ -145,23 +148,23 @@ p {
 
 .my-work-img {
     margin: 12px;
-    width: 500px;
+    width: 600px;
     height: auto;
-    filter: drop-shadow(0.25rem 0.25rem 0.5rem #000000)  
+    filter: drop-shadow(0.25rem 0.25rem 0.5rem #000000); 
 }
 
 .my-work-img:hover {
     opacity: 80%;
-    width: 510px;
+    width: 610px;
     height: auto;
 }
 
 #contactbox {
-    background-image: url("https://images.pexels.com/photos/164005/pexels-photo-164005.jpeg?auto=compress&cs=tinysrgb&w=600");
+    background-image: url("https://cdn.pixabay.com/photo/2016/07/08/13/37/texture-1504364__480.jpg");
     background-size: cover;
 }
 
-#contact-links {
+.contact {
     font-size: 75%;
 }
 
@@ -207,7 +210,7 @@ footer {
         font-size: 70%;
     }
 
-    #contact-links {
-        font-size: 60%;
+    .contact {
+        font-size: 40%;
     }
 }
