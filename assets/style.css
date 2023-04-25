@@ -20,6 +20,13 @@ header {
     
 }
 
+body {
+    
+    background-image: url("https://images.pexels.com/photos/1209951/pexels-photo-1209951.jpeg?auto=compress&cs=tinysrgb&w=600");
+    background-size: stretch;
+    
+}
+
 #header-section {
     height: 200px;
     display: flex;
@@ -70,26 +77,45 @@ main {
 
 .main-box {
     margin: 20px;
-    border-top: 2px solid var(--color3);
-    border-bottom: 2px solid var(--color3);
     display: flex;
     flex-direction: row;
     align-items: center;
+    
 }
 
 h2 {
     font-size: 90%;
     text-align: center;
     margin-right: 20px;  
-    color: var(--color2);
+    color: whitesmoke;
     width: 150px;
 
 }
+#about-me {
+    border: 2px solid black;
+    background-image: url("https://images.pexels.com/photos/1260727/pexels-photo-1260727.jpeg?auto=compress&cs=tinysrgb&w=600");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
 
-.article-content {
+#about-me2 {
+    overflow:hidden;
+    width: 50%;
+}
+
+#about-me-img {
+    margin: 0px 0px -100px -100px;    
     
-    border-left: 2px solid var(--color3);
-    color: var(--color3)
+}
+
+#aboutmecontent {
+    width: 80%;
+}
+
+.article-content {   
+    font-size: 32px;
+    color: black;
+    
 }
 
 p {
@@ -97,23 +123,42 @@ p {
     margin: 15px;
 }
 
+#portfolio {
+    width: 60%;
+    margin: 0 auto;
+    
+}
+
+#portfolio-img {
+    height: auto;
+    width: 100%;
+}
 
 #work-box {
-    margin: 10px;
+    
+    margin: 30px;
     display: flex;
+    justify-content: center;
+    align-items: center;
     flex-flow: row wrap;
 }
 
 .my-work-img {
+    margin: 12px;
     width: 500px;
     height: auto;
-    background: none;    
+    filter: drop-shadow(0.25rem 0.25rem 0.5rem #000000)  
 }
 
 .my-work-img:hover {
-    opacity: .6;
-    width: 600px;
+    opacity: 80%;
+    width: 510px;
     height: auto;
+}
+
+#contactbox {
+    background-image: url("https://images.pexels.com/photos/164005/pexels-photo-164005.jpeg?auto=compress&cs=tinysrgb&w=600");
+    background-size: cover;
 }
 
 #contact-links {
@@ -122,6 +167,7 @@ p {
 
 footer {
     font-size: 200%;
+    background-image: url("https://cdn.pixabay.com/photo/2016/07/08/13/37/texture-1504364__480.jpg");
 }
 
 
